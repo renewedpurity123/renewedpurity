@@ -1,0 +1,157 @@
+style.css
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #3B6E58; /* Earthy Green */
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Add more styles as needed */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #3B6E58; /* Earthy Green */
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #8B1A1A; /* Deep Burgundy */
+}
+.hero {
+  background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+  padding: 100px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #3B6E58; /* Earthy Green */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #8B1A1A; /* Deep Burgundy */
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.feature {
+  margin: 20px;
+  width: calc(33.33% - 40px);
+  text-align: center;
+}
+
+.feature i {
+  font-size: 36px;
+  color: #3B6E58; /* Earthy Green */
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.cta {
+  background-color: #8B1A1A; /* Deep Burgundy */
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta button {
+  background-color: #3B6E58; /* Earthy Green */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.cta button:hover {
+  background-color: #2F4F2F; /* Dark Green */
+}
+footer {
+  background-color: #333; /* Dark Gray */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both; /* Ensure footer clears floating elements */
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ccc; /* Light Gray */
+}
